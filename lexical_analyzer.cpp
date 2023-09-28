@@ -29,7 +29,7 @@ bool validIdentifier(char* str)						//check if the given identifier is valid or
         {
             return false;
         }									//if first character of string is a digit or a special character, identifier is not valid
-    int i,len = strlen(str);
+    int i, len = strlen(str);
     if (len == 1)
     {
         return true;
